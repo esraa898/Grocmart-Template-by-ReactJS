@@ -1,0 +1,70 @@
+.services{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+}
+.services-background{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: -1px;
+    right: -1px;
+    z-index: 0;
+    overflow: hidden;
+
+}
+.services-background img{
+   width:100%;
+   height: 100%;
+   transform:scale(1.5) ;
+   -webkit-transform:scale(1.5) ;
+   -moz-transform:scale(1.5) ;
+   -ms-transform:scale(1.5) ;
+   -o-transform:scale(1.5) ;
+}
+.services-overlay{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.services-overlay::before {
+    content: '';
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.61);
+    z-index: 1;
+    
+}
+.boxes{
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    z-index: 2;
+   
+}
+.box-icon-icon img{
+   width: 5.3rem;
+}
+.box-icon-title {
+  text-transform: uppercase;
+  font-size: 2.5rem ;
+  font-weight: 500;
+line-height: 2.5;
+}
+.box-icon-title:hover{
+    color: #7fd02c; 
+}
+.box-icon-text{
+text-align: left;
+font-size: 1.6rem;
+}

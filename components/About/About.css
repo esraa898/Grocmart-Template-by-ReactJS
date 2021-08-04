@@ -1,0 +1,73 @@
+
+.about-main{
+    padding-top: 50px ;
+}
+
+.About-se{
+    display: flex;
+    justify-content: space-between;
+    height: 450px; 
+    width: 100%; 
+}
+.about-img{
+    width: 50%;
+    height: 100%;
+    background-color: greenyellow;
+}
+.about-img img{
+  width: 100%;
+ height: 100%;
+ min-width: 100%;
+}
+.about-content{
+    width: 50%;
+    margin-left: 15rem;
+    padding: 6rem 2rem;
+   
+    
+}
+.about-content h4{
+    color: #7fd02c;
+    letter-spacing: .05em;
+    text-transform: none;
+    font-family: "Kalam", cursive;
+    font-weight: 600;
+    font-size: 2.7rem;
+    line-height: 3.5;
+}
+.about-content h2{
+    font-size:5.5rem ;
+    font-weight: 700;
+    letter-spacing: 0.4rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+.about-content p{
+    text-align: left;
+    color: #777777;
+    margin-bottom: 30px;
+}
+.about-signature{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.about-signature .sig-names a{
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.about-signature .sig-names a:hover{
+    color: var(--red);
+
+}
+.about-signature .sig-names .founder{
+color: #7fd02c;
+font-size: 1.4rem;
+font-family: "poppins", cursive;
+font-weight: 600;
+
+}
+
+
